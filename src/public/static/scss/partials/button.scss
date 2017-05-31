@@ -55,12 +55,12 @@
 .btn-menu {
   @extend .transition-slow;
 
-  @include breakpoint(map-get($breakpoints, 'mobile-only')) {
-/*    margin-top: -33px;*/
-    position: absolute;
+ /* @include breakpoint(map-get($breakpoints, 'mobile-only')) {
+/!*    margin-top: -33px;*!/
+    position: relative;
     top: -93px;
     right:0;
-  }
+  }*/
 
 
 }
@@ -108,7 +108,7 @@ html:not([dir="rtl"]) input {
 }
 */
 
-.pdp-button, .pdp-button.add-basket{
+/*.pdp-button, .pdp-button.add-basket{
   @include breakpoint(map-get($breakpoints, 'small-tablet-up')) {
     width: 258px;
   }
@@ -126,7 +126,7 @@ html:not([dir="rtl"]) input {
     font-size: 30px;
     top:3px;
   }
-}
+}*/
 
 
 

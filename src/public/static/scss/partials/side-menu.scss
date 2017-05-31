@@ -89,7 +89,7 @@
       display: none;
 
       ul:first-of-type li:first-child {
-        @extend .transition-slow;
+        /*@extend .transition-slow;*/
 
         &:hover {
           border-bottom: 1px solid map-get($colors, 'brand-light');
@@ -98,40 +98,7 @@
     }
   }
 
-  .icon-quick-nav {
-    height: 19px;
 
-    &__speedshop {
-      width: 30px;
-      background-size: 25px auto;
-      background-image: url(../images/icons/speedshop-icon-white.svg);
-    }
-
-    &__favourites {
-      background-size: 22px auto;
-      background-image: url(../images/icons/favourites-icon-white.svg);
-    }
-
-    &__visualiser {
-      background-size: 20px auto;
-      background-image: url(../images/icons/visualiser-icon-white.svg);
-    }
-
-    &__gallery {
-      background-size: 21px auto;
-      background-image: url(../images/icons/gallery-icon-white.svg);
-    }
-
-    &__download {
-      background-size: 21px auto;
-      background-image: url(../images/icons/download-icon-white.svg);
-    }
-    &__faq {
-      background-size: 21px auto;
-      background-image: url(../images/icons/faq-icon-white.svg);
-    }
-
-  }
 
   .quick-nav-links {
     border-bottom: none;

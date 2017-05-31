@@ -72,9 +72,9 @@
     list-style: none;
     text-align: right;
 
-    @include breakpoint(map-get($breakpoints, 'mobile-and-small-tablet-only')){
+    /*@include breakpoint(map-get($breakpoints, 'mobile-and-small-tablet-only')){
       text-align: left;
-    }
+    }*/
 
     li {
       display: inline;
